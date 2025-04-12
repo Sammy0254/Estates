@@ -7,7 +7,6 @@ import { residencyRoute } from "./routes/residencyRoute.js";
 dotenv.config();
 const app = express()
 const PORT = process.env.PORT || 8000;
-
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors())
